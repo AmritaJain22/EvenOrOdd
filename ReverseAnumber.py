@@ -1,0 +1,5 @@
+num = input("Enter a number: ")      
+digits = list(num)                   
+digits.reverse()                     
+reversed_num = ''.join(digits)      
+print("Reversed number is:", reversed_num)
